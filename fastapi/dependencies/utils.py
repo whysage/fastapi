@@ -399,7 +399,7 @@ def analyze_param(
             SecurityScopes,
         ),
     ):
-        assert depends is None, f"Cannot specify `Depends` for type {type_annotation!r}"
+        # assert depends is None, f"Cannot specify `Depends` for type {type_annotation!r}"
         assert (
             field_info is None
         ), f"Cannot specify FastAPI annotation for type {type_annotation!r}"
